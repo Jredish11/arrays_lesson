@@ -12,3 +12,5 @@ ages.shift
 balances.unshift
 #This line of using .lenght method will show a number value of how many elements are in the tuition_paid array.
 tuition_paid.length
+
+#Index poistions refer to the position of an element in a given array.  For example, the index position for "Dave" in the <students> array would be 2.
