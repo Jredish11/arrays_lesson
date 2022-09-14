@@ -2,3 +2,13 @@ students = ["Jeff", "Matt", "Dave", "Greg"]
 ages = [33, 27, 36, 72]
 balances = [1200.00, 69.69, 43.333, 7000.00]
 tuition_paid = [true, false, false, false]
+
+
+#This line of code calls the <pop> method and .pop removes the last element from the array.
+students.pop
+#This line of calls the <shift> method and removes the 1st element in array, shifting all elements down 1.
+ages.shift
+#This line of code calls to bring an element to the front of an array. also can undue .shift. Nothing should happen to this variable bc I didn't specified which element to move and there has been no .shift method used before hand.
+balances.unshift
+#This line of using .lenght method will show a number value of how many elements are in the tuition_paid array.
+tuition_paid.length
